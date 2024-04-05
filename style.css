@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:teal;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    margin: 70px;
+    text-align: center;
+    justify-items: center;
+}
+
+.pl{
+    text-align: left;
+}
+
+.cp{
+    text-align: right;
+}
+
+.resetdiv{
+    margin: 10px;
+    text-align: center;
+    justify-items: center;
+}
+
+.reset{
+    background-color:darkgray;
+    margin: 35px;
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    border: 0;
+}   
+
+.alcn{
+    text-align: center;
+    margin: 20px;
+}
+
+#turn{
+    height: 170px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 0;
+    font-size: larger;
+}
+
+button:hover{
+    background-color: white;
+}
+
+.winner{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.stone{
+    background-color:thistle;
+}
+
+.paper{
+    background-color:khaki;
+}
+
+.scissor{
+    background-color: cornflowerblue;
+}
