@@ -1,3 +1,3 @@
-Stone Paper Scissor Selfmade Project With Own Logic
+Stone Paper Scissor Selfmade Project
 
 This Project Uses HTML,CSS,Javascript.

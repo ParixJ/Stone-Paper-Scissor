@@ -26,6 +26,8 @@ reset.addEventListener("click",() => {
 //Adding Loop For Selecting All Buttons(Turns) One By One
 buttons.forEach((btn) => {
 
+    para.innerText = "No Turns Made :(";
+
     //Added Event Listener For Each Button
     btn.addEventListener("click",() => {
 
@@ -43,7 +45,7 @@ buttons.forEach((btn) => {
                 
                 else if(btn.textContent == ele[1] && comp_turn == ele[2]) {
                     para.innerText = `Computer Won The Match! ${comp_turn} beats ${btn.textContent}.`;
-                    comp_score =+ 1;
+                    comp_score += 1;
                 }
 
                 else if(btn.textContent == ele[2] && comp_turn == ele[0]) {
