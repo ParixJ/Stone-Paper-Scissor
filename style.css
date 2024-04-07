@@ -14,35 +14,27 @@ h2{
 }
 
 .container{
-    margin: 70px;
+    margin:20px;
     text-align: center;
     justify-items: center;
 }
 
-.pl{
-    text-align: left;
-}
-
-.cp{
-    text-align: right;
-}
-
-.resetdiv{
-    margin: 10px;
+.resetdiv{      
     text-align: center;
     justify-items: center;
 }
 
 .reset{
     background-color:darkgray;
-    margin: 35px;
+    margin-top: 30px;
     height: 50px;
     width: 90px;
     border-radius: 10px;
     border: 0;
 }   
 
-.alcn{
+.Score{
+    font-weight: bold;
     text-align: center;
     margin: 20px;
 }
